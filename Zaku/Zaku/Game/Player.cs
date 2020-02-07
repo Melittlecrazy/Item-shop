@@ -23,12 +23,11 @@ namespace Zaku
         }
         public static void ListInventoryItems()
         {
-            
-            for (int i = 0; i < 10 ;i++)
+            for (int i = 0; i < 10; i++)
             {
                 WriteLine($"{i} {Inventory[i].Name}");
             }
-            
+
         }
     }
 }

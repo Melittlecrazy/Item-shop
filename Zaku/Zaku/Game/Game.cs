@@ -47,7 +47,7 @@ namespace Zaku
 
         public void ShowInventory()
         {
-            Player.ListInventoryItems();
+            ListInventoryItems();
         }
         //private bool SearchInventory(string name)
         //{

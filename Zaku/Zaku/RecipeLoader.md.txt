@@ -1,0 +1,9 @@
+By Max Garay, Cesar Duchi, Marc Gutierrez
+
+Steps:
+1. Identify which is strings have numbers
+2. Write out recipes in text file
+3. Extract into code
+4. Convert filename using "float.Parse"
+- gives name of recipe as  string and add units as floats
+(filereadline can be use but we're not sure how to use it)
