@@ -21,9 +21,14 @@ namespace Zaku
             Inventory.Add(new Item("Red Food Dye", 1, "bottle(s)"));
             Inventory.Add(new Item("Yellow Food Dye", 1, "bottle(s)"));
         }
-        public string ListInventoryItems()
+        public static void ListInventoryItems()
         {
-            WriteLine();
+            
+            for (int i = 0; i < 10 ;i++)
+            {
+                WriteLine($"{i} {Inventory[i].Name}");
+            }
+            
         }
     }
 }

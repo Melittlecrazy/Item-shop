@@ -1,8 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Zaku.Utility.Interface;
+using static Zaku.Utility.DataLoader;
 using static System.Console;
 
 namespace Zaku
@@ -19,6 +22,13 @@ namespace Zaku
             {
                 Menu();
             }
+        }
+        private void TitleScreen()
+        {
+            string instructionFile = "Data/Instructions.txt";
+            WriteLine(Utility.DataLoader.Loader(instructionFile));
+
+            Pause();
         }
         public void Menu()
         { 
@@ -37,6 +47,7 @@ namespace Zaku
 
         public void ShowInventory()
         {
+            Player.ListInventoryItems();
         }
         //private bool SearchInventory(string name)
         //{
@@ -106,5 +117,10 @@ namespace Zaku
         {
         }
 
+        public void Run()
+        {
+            TitleScreen();
+            Menu();
+        }
     }
 }
