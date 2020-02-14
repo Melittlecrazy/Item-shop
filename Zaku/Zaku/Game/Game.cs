@@ -47,14 +47,34 @@ namespace Zaku
 
         public void ShowInventory()
         {
-            ListInventoryItems();
+            player.ListInventoryItems();
         }
-        //private bool SearchInventory(string name)
+        //private bool searchinventory(string name)
         //{
+        //    foreach (Item i in player.Inventory)
+        //    {
+        //        if (i.Name = name)
+        //        {
+        //            //Player.Inventory.Remove(i);
+        //            return true;
+        //        }
+        //    }
+        //    return false;
         //}
-        //private bool RemoveItem(string name)
+        
+        //public bool RemoveItem(string name)
         //{
+        //    foreach(Item i in player.Inventory)
+        //        {
+        //            if (i.Name = name)
+        //            {
+        //                player.Inventory.Remove(i);
+        //                return true;
+        //            }
+        //        }
+        //     return false;
         //}
+
         //private float GetInventoryAmount(string name)
         //{
         //}
@@ -97,24 +117,34 @@ namespace Zaku
         }
         private void MakeOrangeDye()
         {
+            if ("1 red food dye" && "1 yellow food dye")
+            {
+
+            }
+                
         }
         private void MakeGreenDye()
         {
+            //1 blue food dye 1 yellow food dye
         }
 
         private void MakeTortilla()
         {
+            //2 cups white flour 3 / 4 cup warm water
         }
         private void MakePaperMache()
         {
+            //1 cup flour 2 cups water Newspaper strips
         }
 
         private void MakePlayDough()
         {
+            //1 cup of flour ¼ cup of salt ½ cup of warm water
         }
 
         private void MakeColoredPlayDough()
         {
+            //(plain play-dough && Food coloring)
         }
 
         public void Run()

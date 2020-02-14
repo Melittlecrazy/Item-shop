@@ -9,7 +9,8 @@ namespace Zaku
 {
     class Player
     {
-        List<Item> Inventory = new List<Item>();
+       public List<Item> Inventory = new List<Item>();
+       public List<Item> Food = new List<Item>();
 
         public Player()
         {
@@ -20,14 +21,22 @@ namespace Zaku
             Inventory.Add(new Item("Blue Food Dye", 1, "bottle(s)"));
             Inventory.Add(new Item("Red Food Dye", 1, "bottle(s)"));
             Inventory.Add(new Item("Yellow Food Dye", 1, "bottle(s)"));
+
+            //Food.Add(new Item(,,));
+            //Food.Add(new Item(,,));
+            //Food.Add(new Item(,,));
+            //Food.Add(new Item(,,));
+            //Food.Add(new Item(,,));
+            
         }
-        public static void ListInventoryItems()
+        public void ListInventoryItems()
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 7; i++)
             {
                 WriteLine($"{i} {Inventory[i].Name}");
             }
 
         }
+        
     }
 }
