@@ -12,7 +12,9 @@ namespace Zaku
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
+            Games game = new Games();
+            game.Game();
+            
         }
     }
 }

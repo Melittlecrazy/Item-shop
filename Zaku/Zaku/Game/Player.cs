@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace Zaku
 {
-    class Player
+    public class Player
     {
-       public List<Item> Inventory = new List<Item>();
-       public List<Item> Food = new List<Item>();
+       List<Item> Inventory = new List<Item>();
+      // List<Item> Food = new List<Item>();
 
+        
         public Player()
         {
             Inventory.Add(new Item("White Flour", 4, "cup(s)"));
@@ -37,6 +38,8 @@ namespace Zaku
             }
 
         }
+
+        
         
     }
 }

@@ -14,6 +14,7 @@ namespace Zaku
         public string Name { get => name; set => name = value; }
         public float Amount { get => amount; set => amount = value; }
         public string Amounttype { get => amounttype; set => amounttype = value; }
+        public float Value;
 
         public Item(string _name, float _amount, string _amounttype)
         {

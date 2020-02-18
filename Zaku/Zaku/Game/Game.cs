@@ -10,13 +10,13 @@ using static System.Console;
 
 namespace Zaku
 {
-    class Game
+    class Games
     {
         Player player;
 
-        public Game()
+        public void Game()
         {
-            Title = "Easy Make App 1.0";
+            Title = "Item Shop";
             player = new Player();
             while (true)
             {
@@ -33,7 +33,7 @@ namespace Zaku
         public void Menu()
         { 
             WriteLine("Choose:");
-            WriteLine("1) Show Inventory \n2) Make");
+            WriteLine("1) Show Inventory \n2) Make \n3) Trader");
             string choose = ReadLine();
             if (choose == "1")
             {
@@ -42,6 +42,10 @@ namespace Zaku
             else if (choose == "2")
             {
                 Make();
+            }
+            else if (choose == "3")
+            {
+                Trader.Trader();
             }
         }
 
@@ -81,6 +85,7 @@ namespace Zaku
         //private bool ChangeInventoryAmount(string name, float amount)
         //{
         //}
+
         public void Make()
         {
             
@@ -89,63 +94,63 @@ namespace Zaku
             string choose = ReadLine();
             if (choose == "1")
             {
-                MakeOrangeDye();
+                //MakeOrangeDye();
             }
             else if (choose == "2")
             {
-                MakeGreenDye();
+                //MakeGreenDye();
             }
             else if (choose == "3")
             {
-                MakeTortilla();
+                //MakeTortilla();
             }
             else if (choose == "4")
             {
-                MakePaperMache();
+                //MakePaperMache();
             }
             else if (choose == "5")
             {
-                MakePlayDough();
+                //MakePlayDough();
             }
             else if (choose == "6")
             {
-                MakeColoredPlayDough();
+                //MakeColoredPlayDough();
             }
         }
         private void Confirmation(string name)
         {
         }
-        private void MakeOrangeDye()
-        {
-            if ("1 red food dye" && "1 yellow food dye")
-            {
+        //private void MakeOrangeDye()
+        //{
+        //    if (!Inventory.Contains("1 Red Food Dye" + "1 yellow food dye"))
+        //    {
+        //        Inventory.Add(new Item("Orange Food Dye", 1, "bottle(s)"));
+        //    }
+        //        //have inventory be a text doc
+        //}
+        //private void MakeGreenDye()
+        //{
+        //    //1 blue food dye 1 yellow food dye
+        //}
 
-            }
-                
-        }
-        private void MakeGreenDye()
-        {
-            //1 blue food dye 1 yellow food dye
-        }
+        //private void MakeTortilla()
+        //{
+        //    //2 cups white flour 3 / 4 cup warm water
+        //}
+        //private void MakePaperMache()
+        //{
+        //    //1 cup flour 2 cups water Newspaper strips
+        //}
 
-        private void MakeTortilla()
-        {
-            //2 cups white flour 3 / 4 cup warm water
-        }
-        private void MakePaperMache()
-        {
-            //1 cup flour 2 cups water Newspaper strips
-        }
+        //private void MakePlayDough()
+        //{
+        //    //1 cup of flour ¼ cup of salt ½ cup of warm water
+        //}
 
-        private void MakePlayDough()
-        {
-            //1 cup of flour ¼ cup of salt ½ cup of warm water
-        }
-
-        private void MakeColoredPlayDough()
-        {
-            //(plain play-dough && Food coloring)
-        }
+        //private void MakeColoredPlayDough()
+        //{
+        //    //(plain play-dough && Food coloring)
+        //}
 
         public void Run()
         {
