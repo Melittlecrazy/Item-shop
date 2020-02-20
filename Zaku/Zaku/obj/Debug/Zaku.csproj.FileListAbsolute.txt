@@ -4,3 +4,9 @@ C:\Users\marc.gutierrez\Documents\GitHub\Item-shop\Zaku\Zaku\bin\Debug\Zaku.pdb
 C:\Users\marc.gutierrez\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.csprojAssemblyReference.cache
 C:\Users\marc.gutierrez\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.exe
 C:\Users\marc.gutierrez\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.pdb
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.csprojAssemblyReference.cache
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.exe
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\obj\Debug\Zaku.pdb
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\bin\Debug\Zaku.exe.config
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\bin\Debug\Zaku.exe
+C:\Users\Marc G\Documents\GitHub\Item-shop\Zaku\Zaku\bin\Debug\Zaku.pdb

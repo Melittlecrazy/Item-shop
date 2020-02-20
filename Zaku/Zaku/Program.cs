@@ -13,7 +13,7 @@ namespace Zaku
         static void Main(string[] args)
         {
             Games game = new Games();
-            game.Game();
+            game.Run();
             
         }
     }

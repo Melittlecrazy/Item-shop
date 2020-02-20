@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Zaku.Game
 {
-    class Trader
+    public class Trader
     {
 
         public Trader()
@@ -33,7 +33,9 @@ namespace Zaku.Game
             //add from trader inventory subtract to player inv
             //add $
         }
-            return Games.Menu();
+            //return Games.Menu();
         }
+
+       
     }
 }

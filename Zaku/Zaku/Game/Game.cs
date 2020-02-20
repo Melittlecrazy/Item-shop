@@ -7,13 +7,18 @@ using System.Threading.Tasks;
 using static Zaku.Utility.Interface;
 using static Zaku.Utility.DataLoader;
 using static System.Console;
+using Zaku.Game;
 
 namespace Zaku
 {
     class Games
     {
         Player player;
+        Trader trader;
 
+        int activeMenu = 0;
+
+        // game function 
         public void Game()
         {
             Title = "Item Shop";
@@ -38,14 +43,19 @@ namespace Zaku
             if (choose == "1")
             {
                 ShowInventory();
+                activeMenu = 1;
             }
             else if (choose == "2")
             {
                 Make();
+                activeMenu = 2; 
             }
             else if (choose == "3")
             {
-                Trader.Trader();
+                WriteLine("Choose:");
+                WriteLine("1) Buy \n2) Sell \n3) Back");
+                string choose2 = ReadLine();
+                activeMenu = 3;
             }
         }
 
@@ -126,7 +136,7 @@ namespace Zaku
         //    {
         //        Inventory.Add(new Item("Orange Food Dye", 1, "bottle(s)"));
         //    }
-        //        //have inventory be a text doc
+        //    //have inventory be a text doc
         //}
         //private void MakeGreenDye()
         //{
